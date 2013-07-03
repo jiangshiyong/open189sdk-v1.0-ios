@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Open189SDK' target in the 'Open189SDK' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
