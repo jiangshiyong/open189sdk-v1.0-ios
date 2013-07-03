@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'Open189SDKDemo' target in the 'Open189SDKDemo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+
+#define Open189APPKey @"233841700000029798"
+#define Open189APPSecret @"096522f664c54e7980b57adc474cc5ab"//
+
+#define kOpen189REDIRECT_URI            @"http://www.renren.com/bind/ty/tyLoginCallBack"
+
+
+#endif
